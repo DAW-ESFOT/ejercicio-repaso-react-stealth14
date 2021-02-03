@@ -26,7 +26,6 @@ export default function BookItem({ item }) {
       extra={<img width={272} alt="logo" src={cover_page} />}
     >
       <List.Item.Meta
-        avatar={<Avatar src={item.avatar} />}
         title={<a href={item.href}>{item.title}</a>}
         description={item.description}
       />

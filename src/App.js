@@ -5,7 +5,7 @@ import BooksList from './components/BooksList';
 function App() {
   return (
     <div className="App">
-      <BooksList className="books-list"/>
+      <BooksList/>
     </div>
   );
 }
