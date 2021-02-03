@@ -1,3 +1,7 @@
-.books-list{
-    min-height: 700px;
+.books-list {
+  min-height: 700px;
+}
+
+.overlay:hover {
+    background: rgba(0, 0, 0, 0.1);
 }
