@@ -21,7 +21,7 @@ export default function BookItem({ item }) {
           icon={MessageOutlined}
           text="2"
           key="list-vertical-message"
-        />,
+        />
       ]}
       extra={<img width={272} alt="logo" src={cover_page} />}
     >
