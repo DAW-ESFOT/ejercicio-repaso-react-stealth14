@@ -20,3 +20,8 @@
 .textual-details{
   text-align: center;
 }
+
+.textual-details .description{
+  color: rgb(103, 82, 82);
+  font: bold;
+}

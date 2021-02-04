@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { List, Avatar, Space } from "antd";
-import { MessageOutlined, LikeOutlined, StarOutlined } from "@ant-design/icons";
+import { MessageOutlined, CheckCircleFilled, CheckCircleOutlined, DollarCircleOutlined } from "@ant-design/icons";
 import { BooksContext } from "./../App";
 import "./books.css";
 
@@ -20,19 +20,14 @@ export default function BookItem({ item }) {
         key={id}
         actions={[
           <IconText
-            icon={StarOutlined}
-            text="156"
+            icon={DollarCircleOutlined}
+            text={item.price}
             key="list-vertical-star-o"
           />,
           <IconText
-            icon={LikeOutlined}
-            text="156"
+            icon={item.available ? CheckCircleFilled : CheckCircleOutlined}
+            text={item.available ? "Available": "Unavailable"}
             key="list-vertical-like-o"
-          />,
-          <IconText
-            icon={MessageOutlined}
-            text="2"
-            key="list-vertical-message"
           />,
         ]}
         onClick={() =>{ 

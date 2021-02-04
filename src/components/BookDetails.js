@@ -10,6 +10,7 @@ export default function BookDetail({ bookDetails }) {
         <Col span={12}>
           <div className="textual-details">
             <h2>{bookDetails.author}</h2>
+            <p className="description">{bookDetails.synopsis}</p>
             <h2 className="available-advice">${bookDetails.price}</h2>
           </div>
           <h2 className={bookDetails.available ? "available-advice" : "unavailable-advice"}>
