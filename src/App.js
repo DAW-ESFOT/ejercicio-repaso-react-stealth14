@@ -31,7 +31,7 @@ function App() {
       <div className="App">
         <BooksList />
         <Modal
-          title={bookDetails?.title}
+          title={<h2>{bookDetails.title}</h2>}
           visible={isModalVisible}
           onOk={handleOk}
           onCancel={handleCancel}

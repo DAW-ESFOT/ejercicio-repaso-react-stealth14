@@ -5,3 +5,18 @@
 .overlay:hover {
     background: rgba(0, 0, 0, 0.1);
 }
+
+.available-advice{
+  background: rgba(94, 173, 41, 0.3);
+  text-align: center;
+  color: green;
+}
+.unavailable-advice{
+  background: rgba(173, 41, 41, 0.3);
+  text-align: center;
+  color: red;
+}
+
+.textual-details{
+  text-align: center;
+}
